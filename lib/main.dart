@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_stateful_example/pages/home_page.dart';
 import 'package:flutter_stateful_example/pages/like_page.dart';
 import 'package:flutter_stateful_example/pages/theme_page.dart';
+import 'package:flutter_stateful_example/pages/todo_page.dart';
 import 'package:flutter_stateful_example/provider/theme_provider.dart';
 import 'package:flutter_stateful_example/pages/counter_page.dart';
 import 'package:provider/provider.dart';
@@ -28,6 +29,7 @@ class App extends StatelessWidget {
         'counter': (context) => CounterPage(),
         'theme-change': (context) => ThemePage(),
         'likes': (context) => LikePage(),
+        'todo': (context) => TodoPage(),
       },
     );
   }
